@@ -49,10 +49,11 @@ On first load the client asks for:
 | Server   | `irc.libera.chat`   |
 | Port     | `6667`              |
 | Nickname | `user` + 8 random digits |
+| Real name | `OnePageIRC user`  |
 
 Under **Advanced**: TLS (`wss://`), gateway path, WebSocket subprotocol
-(some gateways want `text.ircv3.net`), real name, auto-join channels, server
-password, and SASL PLAIN credentials.
+(some gateways want `text.ircv3.net`), auto-join channels, server password,
+and SASL PLAIN credentials.
 
 Everything except the passwords is remembered in `localStorage`. Passwords are
 never written to disk.
